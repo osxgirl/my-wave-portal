@@ -37,6 +37,29 @@
   font-size: 16px;
   
 }
+.inputContainer {
+  background-color: violet;
+  color: white;
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+input, textarea {
+  background-color: violet;
+  border: none;
+  color: white;
+}
+.waveContainer {
+  display: flex;
+  font-size: 10px;
+  padding: 20px 40px 50px 20px;
+  color: grey;
+}
 
 p {
   text-align: center;
