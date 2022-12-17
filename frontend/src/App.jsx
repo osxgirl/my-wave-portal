@@ -5,6 +5,18 @@ import abi from "./utils/WavePortal.json";
 
 import trellis from './Viva-Magenta-trellis-pattern.png'; 
 
+import { GiphyFetch } from "@giphy/js-fetch-api";
+import {
+  Carousel
+} from "@giphy/react-components";
+
+const giphyFetch = new GiphyFetch("vQ6dNPifItkPzKpOK5SzCPR2gntsyUFr");
+function CarouselDemo() {
+  const fetchGifs = (offset, number) =>
+    giphyFetch.search("waves", { offset, limit: 10 });
+  return <Carousel fetchGifs={fetchGifs} gifHeight={50} gutter={8} />;
+}
+
 function App() {
   const getEthereumObject = () => window.ethereum;
   const [currentAccount, setCurrentAccount] = useState("");
@@ -272,7 +284,7 @@ const getWaveCount = async () => {
             <p><img src={trellis} alt="Vivid Magenta, Color of the Year 2023!" width="100"/></p>
             <p>#magentaverse</p>
 
-        <footer><p></p></footer>
+        <footer><p><CarouselDemo /></p></footer>
       </div>
     </div>
   );
