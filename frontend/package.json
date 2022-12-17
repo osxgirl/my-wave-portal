@@ -7,12 +7,15 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@giphy/react-components": "^6.5.1",
     "@types/react": "^17.0.13",
     "@types/react-dom": "^17.0.8",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "vite": "^3.0.4",
+    "@vitejs/plugin-react": "^2.0.0",
     "ethers": "^5.4.4",
-    "@vitejs/plugin-react": "^2.0.0"
+    "react": "^17.0.2",
+    "react-async-hook": "^4.0.0",
+    "react-components": "^0.5.1",
+    "react-dom": "^17.0.2",
+    "vite": "^3.0.4"
   }
 }

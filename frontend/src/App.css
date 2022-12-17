@@ -1,3 +1,15 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #BB2649;
+  text-align: center;
+}
+
 .mainContainer {
   display: flex;
   justify-content: center;
@@ -13,57 +25,65 @@
 }
 
 .header {
+  margin: 50px;
   text-align: center;
-  font-size: 32px;
+  font-size: 43px;
   font-weight: 600;
-  color: orange;
+  color: white;
 }
 
 .bio {
   text-align: center;
-  color: gray;
+  color: white;
   margin-top: 16px;
   font-size: 20px;
 }
 
 .waveButton {
-  background-color: violet;
+  background-color: #44D9B6;
   color: white;
   cursor: pointer;
   margin-top: 16px;
   padding: 8px;
   border: 0;
   border-radius: 20px;
-  font-size: 16px;
+  font-size: 26px;
   
 }
 .inputContainer {
-  background-color: violet;
+  background-color: #44D9B6;
   color: white;
   cursor: pointer;
-  margin-top: 16px;
+  margin-top: 10px;
   padding: 8px;
   border: 0;
   border-radius: 20px;
-  font-size: 16px;
+  font-size: 26px;
   text-align: center;
 }
 
 input, textarea {
-  background-color: violet;
+  background-color: #44D9B6;
   border: none;
   color: white;
+  font-size: 26px;
 }
 .waveContainer {
-  display: flex;
-  font-size: 10px;
-  padding: 20px 40px 50px 20px;
-  color: grey;
+  font-size: 20px;
+  padding: 20px 30px 50px 30px;
+  margin: 20px;
+  color: white;
+  border: dotted;
 }
 
 p {
   text-align: center;
-  font-size: 23px;
-  color: cyan;
- -webkit-text-stroke: 1px gray;
+  font-size: 35px;
+  color: #44D9B6;
+ -webkit-text-stroke: white;
+}
+
+
+footer{
+  
 }
